@@ -1,3 +1,4 @@
+# Importing the required Library
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
@@ -27,4 +28,5 @@ def draw_plot():
     plt.title('Rise in Sea Level')
 
     plt.savefig('sea_level_predictor.png')
+
     return plt.gca()
